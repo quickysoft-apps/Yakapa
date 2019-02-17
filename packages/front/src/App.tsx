@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Plugin } from '@front/settings';
 
 import logo from './logo.svg';
 import './App.css';
@@ -11,6 +12,7 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <p>
             Edit <code>src/App.tsx</code> and save to reload.
+            <Plugin/>
           </p>
           <a
             className="App-link"
