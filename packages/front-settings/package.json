@@ -10,7 +10,7 @@
     "lib": "lib",
     "test": "__tests__"
   },
-  "typings": "lib/front-settings.d.ts",
+  "types": "./lib/index.d.ts",
   "files": [
     "lib"
   ],

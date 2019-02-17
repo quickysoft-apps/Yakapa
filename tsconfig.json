@@ -1,7 +1,6 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "allowJs": true,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
@@ -9,9 +8,12 @@
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "noImplicitAny": true,
-    "removeComments": true,
-    "strict": true,
     "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "strictNullChecks": true,
+    "strict": true,
+    "noUnusedLocals": true,
+    "removeComments": true,
     "sourceMap": true
   },
   "exclude": ["node_modules", "**/*.spec.ts"]
