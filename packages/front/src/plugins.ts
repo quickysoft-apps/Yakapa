@@ -1,9 +1,18 @@
+import { FunctionComponent } from 'react';
+
 import * as Settings from '@front/settings';
 import * as Admin from '@front/admin';
 
-interface Plugin {
+export interface YakapaPlugin {
   name: string;
-  Root: () => JSX.Element;
+  Root: FunctionComponent<{ text: string }>;
 }
 
-export const plugins: Plugin[] = [Settings, Admin];
+// const exportPlugins = async () => {
+//   return [
+//     await import('@front/settings'),
+//     await import('@front/admin')
+//   ] as YakapaPlugin[];
+// };
+
+export const plugins = [Settings, Admin];
