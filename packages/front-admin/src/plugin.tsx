@@ -5,10 +5,10 @@ interface Props {
   text: string;
 }
 
-export const name = 'Settings';
+export const name = 'Admin';
 
 export const Root: StatelessComponent<Props> = props => (
   <Button variant="contained" color="primary">
-    Hello World {props.text}
+    Another plugin {props.text}
   </Button>
 );

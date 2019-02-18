@@ -1,7 +1,7 @@
 {
-  "name": "@front/settings",
+  "name": "@front/admin",
   "version": "0.0.0",
-  "description": "Front settings plugin",
+  "description": "Agent administration",
   "author": "neurosoup <neurosoup@gmail.com>",
   "homepage": "https://github.com/quickysoft-apps/Yakapa#readme",
   "license": "ISC",

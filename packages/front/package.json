@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@front/settings": "^0.0.1",
+    "@front/settings": "^0.0.0",
+    "@front/admin": "^0.0.0",
     "nw-react-scripts": "2.0.0"
   },
   "scripts": {
